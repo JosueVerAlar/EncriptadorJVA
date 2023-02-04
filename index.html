@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+
+<!-- Este código es parte de la ruta de aprendizaje de Oracle-ONE y elaborado por
+Josué Vergara Alarcón. Cualquier aclaracion o duda esta el contacto siguiente
+jva.urbanismo@gmail.com -->
+
+<body>
+    <header>
+            <img id="recargar" src="imagenes/Logo.png" alt="Logo alura 'a'">
+    </header>
+    
+    <main>
+        <section class="entrada">
+            <textarea class="input-texto" name="texto origen" id="to" cols="40" rows="6"
+            placeholder="Ingrese el texto aqui"></textarea>
+
+            <br>
+            <div class="aviso">
+                <img class="informacion" src="imagenes/bi_exclamation-circle-fill.png" alt="signo de exclamacion">
+                Solo letras minusculas y sin acentos
+            </div>
+            
+            <div class="botones">
+                <br>
+                <button class="encriptar" onclick="btnEncriptar()">
+                    Encriptar
+                </button>
+
+                <button class="desencriptar" onclick="btnDesencriptar()">
+                    Desencriptar
+                </button>
+            </div>
+        </section>
+
+        <section class="salida">
+            <textarea class="mensaje" name="mensaje" id="mns" cols="18"
+            rows="8"></textarea>
+
+            <div>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
