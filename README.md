@@ -19,3 +19,6 @@ La idea en términos generales es que se puedan intercambiar mensajes secretos c
 
 ![Video tester informativo](https://github.com/JosueVerAlar/EncriptadorJVA/blob/main/imagenes/tester0.jpg)
 ![Video tester informativo](https://github.com/JosueVerAlar/EncriptadorJVA/blob/main/imagenes/tester1.jpg)
+
+Puedes probar el programa dando click en el siguiente link: 
+[Encriptador](https://josueveralar.github.io/EncriptadorJVA/)
